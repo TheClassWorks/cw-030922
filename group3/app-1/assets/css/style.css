@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@font-face {
+  font-family: arvand;
+  src: url(../fonts/Vazir-Thin.eot) format(eot), url(../fonts/Vazir-Thin.ttf) format(ttf), url(../fonts/Vazir-Thin.woff) format(woff), url(../fonts/Vazir-Thin.woff2) format(woff2);  
+}
+
+@font-face{
+    font-family: reza;
+    src: url();
+}
+
+
+/* asterisk */
+* {
+  direction: rtl;
+  font-family: arvand;
+}
+
+table {
+  background-color: #c2eae9;
+}
+
+.toopor {
+  color: red;
+  font-family: arvand;
+}
+
+.matn2 {
+ 
+}
+
+.toopor {
+  color: blue;
+}

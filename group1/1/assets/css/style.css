@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url('https://v1.fontapi.ir/css/IranNastaliq');
+
+@font-face {
+  font-family: arvand;
+  src: url(../fonts/Vazir-Thin.eot) format(eot), url(../fonts/Vazir-Thin.ttf) format(ttf), url(../fonts/Vazir-Thin.woff) format(woff), url(../fonts/Vazir-Thin.woff2) format(woff2);
+}
+
+@font-face {
+  font-family: lale;
+  src: url(../fonts/Lalezar-Regular.ttf);
+}
+/*asterisk */
+* {
+  font-family: "Vazirmatn";
+  direction: rtl;
+  color: brown;
+}
+
+.tb1 {
+  background-color: aquamarine;
+}
+
+.matn {
+  color: #000;
+  background-color: greenyellow;
+  border-radius: 10px;
+  box-shadow: 6px -8px 4px 2px #d5b7b7;
+
+ 
+}
+
+.titr {
+  font-family: Iran Nastaliq, sans-serif;
+}
+
+body {
+  background-color: #efefef;
+  background-image: url(../images/pattern-discover-moyen.9c1604ba5d29849c.png);
+  background-repeat: repeat;
+  /* background-position: center; */
+  /* background-size: cover; */
+  background-attachment: scroll;
+
+}
